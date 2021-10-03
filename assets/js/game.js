@@ -26,10 +26,6 @@ var fight = function(enemy) {
         console.log("playerInfo.money", playerInfo.money)
         break;
       }
-      else {
-      window.alert('You did not pick a valid option. Try again.');
-      break;
-      }
     }
 
     // generate random damage value based on player's attack power
